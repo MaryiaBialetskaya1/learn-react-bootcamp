@@ -4,6 +4,7 @@ import { Avacado } from "./components/avacado/Avacado";
 import { Dogs } from "./components/fetchDogs/Dogs";
 import { Image } from "./components/fetchImage/Image";
 import { Quote } from "./components/fetchQuote/Quote";
+import { Profile } from "./components/profile/Profile";
 import { Tomato } from "./components/tomato/Tomato";
 
 class App extends Component {
@@ -31,6 +32,7 @@ class App extends Component {
             {btnText}
           </button>
         </div>
+        <Profile />
       </div>
     );
   }
