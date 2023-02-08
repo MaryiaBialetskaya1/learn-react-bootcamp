@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./App.css";
 import { Avacado } from "./components/avacado/Avacado";
+import { Image } from "./components/fetchImage/Image";
 import { Quote } from "./components/fetchQuote/Quote";
 import { Tomato } from "./components/tomato/Tomato";
 
@@ -14,6 +15,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <Image />
         <Quote />
         <div>
           <div>{this.state.show ? <Avacado /> : <Tomato />}</div>
