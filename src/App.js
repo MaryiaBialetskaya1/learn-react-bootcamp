@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Axios } from "./components/axios/Axios";
 import "./App.css";
 import { Avacado } from "./components/avacado/Avacado";
 import { Dogs } from "./components/fetchDogs/Dogs";
@@ -33,6 +34,7 @@ class App extends Component {
           </button>
         </div>
         <Profile />
+        <Axios />
       </div>
     );
   }
