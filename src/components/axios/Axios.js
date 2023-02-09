@@ -14,7 +14,7 @@ export class Axios extends Component {
   render() {
     return (
       <div>
-        <h1>Test</h1>
+        <h1>USERS: </h1>
         <div>
           {this.state.users.map((user) => (
             <div key={user.id}>

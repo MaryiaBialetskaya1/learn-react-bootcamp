@@ -7,6 +7,7 @@ import { Image } from "./components/fetchImage/Image";
 import { Quote } from "./components/fetchQuote/Quote";
 import { Profile } from "./components/profile/Profile";
 import { Tomato } from "./components/tomato/Tomato";
+import { PostAxios } from "./components/postAxios/PostAxios";
 
 class App extends Component {
   state = {
@@ -35,6 +36,7 @@ class App extends Component {
         </div>
         <Profile />
         <Axios />
+        <PostAxios />
       </div>
     );
   }
