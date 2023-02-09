@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/learn-react-bootcamp/static/css/main.073c9b0a.css",
+    "main.js": "/learn-react-bootcamp/static/js/main.ad725077.js",
+    "static/js/787.dcb3449f.chunk.js": "/learn-react-bootcamp/static/js/787.dcb3449f.chunk.js",
+    "static/media/tomato.webp": "/learn-react-bootcamp/static/media/tomato.79a91fb22ee73ba97a56.webp",
+    "static/media/avocado.webp": "/learn-react-bootcamp/static/media/avocado.e1caf08fb0af74423519.webp",
+    "index.html": "/learn-react-bootcamp/index.html",
+    "main.073c9b0a.css.map": "/learn-react-bootcamp/static/css/main.073c9b0a.css.map",
+    "main.ad725077.js.map": "/learn-react-bootcamp/static/js/main.ad725077.js.map",
+    "787.dcb3449f.chunk.js.map": "/learn-react-bootcamp/static/js/787.dcb3449f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ad725077.js"
+  ]
+}
