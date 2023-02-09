@@ -19,8 +19,15 @@ export class Profile extends Component {
           <p>Loading....</p>
         ) : (
           <div>
-            <p>{this.state.person.name.first}</p>
-            <p>{this.state.person.name.last}</p>
+            <div>
+              <img src={this.state.person.picture.medium} alt="profile pic" />
+            </div>
+            <h3>
+              {this.state.person.name.first} {this.state.person.name.last}
+            </h3>
+            <div>
+              <h4>My email is: {this.state.person.email}</h4>
+            </div>
           </div>
         )}
       </div>
